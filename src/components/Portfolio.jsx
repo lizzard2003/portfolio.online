@@ -1,9 +1,10 @@
 import React from "react";
 import HomePage from'../assets/HomePage.png'
 
-import ReactLayout from'../assets/portfolio/ReactLayout.png'
+import ReactLayout from'../assets/ReactLayout.png'
 
 import Spotify from '../assets/portfolio/SpotifyCopy.jpg'
+import NasaVerse from '../assets/NasaVerse.png'
 
 const Portfolio= () => {
     const portfolios= [
@@ -27,6 +28,14 @@ const Portfolio= () => {
             src: Spotify,
             href:"",
             link:"https://github.com/lizzard2003/spotifyClone.git",
+
+
+        },
+        {
+            id:4,
+            src: NasaVerse,
+            href:"",
+            link:"https://github.com/lizzard2003/NasaPic.git",
 
 
         },

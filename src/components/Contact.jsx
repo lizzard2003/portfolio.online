@@ -10,11 +10,11 @@ const Contact = () =>{
                 </div>
                 <div className="flex justify-center items-center ">
                     <form action="https://getform.io/f/c854fd4d-d7ea-45d0-8e86-67602cea8b25" method="POST" className="flex flex-col w-full md:w-1/2">
-                        <input type="text" name="name" placeholder=" Enter you name"
+                        <input type="text" name="name" placeholder=" Enter your name"
                         className="p-2 bg-transparent border-2 rounded-md text-white
                         focus:outline-none"
                         />
-                        <input type="text" name="email" placeholder=" Enter you email"
+                        <input type="text" name="email" placeholder=" Enter your email"
                                className=" my-4 p-2 bg-transparent border-2 rounded-md text-white
                         focus:outline-none"
                         />

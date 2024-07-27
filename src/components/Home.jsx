@@ -10,9 +10,9 @@ const Home = () => {
             <div className= "max-w-screen-lg mx-auto flex flex-col
             items-center justify-center h-full px-4 md:flex-row">
                 <div className= "flex flex-col justify-center h-full">
-                    <h2 className=" text-4xl sm:text-7xl font-bold text-white">
+                    <h3 className=" text-4xl sm:text-7xl font-bold text-white">
                         I'm a Ship dock Area Manager at Amazon
-                    </h2>
+                    </h3>
                     <p className=" text-gray-300 py-4 max-w-md">
                         As an alumni of Texas State University, I have recently graduated with a distinguished academic background in Computer Science.
                         With a keen focus on collaborative work, I have cultivated a strong skill set as an effective team member, capable of seamlessly integrating within diverse groups.

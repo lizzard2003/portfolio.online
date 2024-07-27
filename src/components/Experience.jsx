@@ -8,7 +8,7 @@ import tailwind from "../assets/tailwind.png"
 import github from "../assets/github.png"
 import python from "../assets/python.png"
 import cplusplus from "../assets/c++.png"
-import flask from "../assets/flask.png"
+import flask from "../assets/icons8-flask-150.png"
 
 
 const Experience = () =>{
@@ -79,7 +79,7 @@ const Experience = () =>{
         },
         {
             id:10,
-            src: flask,
+            src:flask ,
             title: 'Flask',
             style: 'shadow-gray-400',
 

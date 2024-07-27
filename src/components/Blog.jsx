@@ -21,7 +21,7 @@ const Blog = () =>{
                 <ul className="list-disc pl-6 text-xl mt-4">
                     <li>EdX: Harvard Tiny Machine Learning (TinyML) Deployment</li>
                     <li>Linkedin: Artificial Intelligence Foundations: Machine Learning</li>
-                    <li>ML Project: Brainstorming</li>
+                    <li>Google Analytics Certification</li>
                 </ul>
 
 

@@ -17,12 +17,10 @@ const About = () =>{
             </div>
             <p className="text-xl mt-20">
                 I am a recent graduate of Texas State University with a degree in Computer Science.
-                My current focus is on expanding my knowledge in Automation.
-                Currently, I am actively engaged in an online course offered by Harvard, specifically delving into the realm of Tiny Machine Learning (TinyML).
-                The course commences with an exploration of the ethical implications and responsibilities associated with programming in this domain.
-                Subsequently, it provides detailed insights into distinguishing between data storage in the cloud and local environments.
+                My current focus is on expanding my knowledge in data analysis. I am actively engaged in an online
+                course offered by Harvard, specifically delving into the realm of Tiny Machine Learning (TinyML), while
+                simultaneously obtaining a data analytics certification from Google.
 
-                My approach involves a hands-on learning experience, with practical projects anticipated as an outcome of this comprehensive course.
             </p>
             <br/>
             <p className="text-xl">

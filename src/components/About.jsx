@@ -16,10 +16,13 @@ const About = () =>{
                 </p>
             </div>
             <p className="text-xl mt-20">
-                I am a recently graduated Computer Science major with a burning passion for technology and a relentless drive to innovate.
-                The rapidly evolving landscape of the tech industry excites me, and I eagerly anticipate the future that holds countless opportunities for groundbreaking advancements.
-                With a strong foundation in computer science principles and a curious mind, I am determined to contribute my skills and knowledge to push the boundaries of what is possible.
-                I am ready to embrace the challenges and discoveries that lie ahead, fueled by my unwavering enthusiasm for the ever-evolving world of technology.
+                I am a recent graduate of Texas State University with a degree in Computer Science.
+                My current focus is on expanding my knowledge in Automation.
+                Currently, I am actively engaged in an online course offered by Harvard, specifically delving into the realm of Tiny Machine Learning (TinyML).
+                The course commences with an exploration of the ethical implications and responsibilities associated with programming in this domain.
+                Subsequently, it provides detailed insights into distinguishing between data storage in the cloud and local environments.
+
+                My approach involves a hands-on learning experience, with practical projects anticipated as an outcome of this comprehensive course.
             </p>
             <br/>
             <p className="text-xl">

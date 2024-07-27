@@ -6,6 +6,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Blog from "./components/Blog";
 function App() {
     useEffect(() => {
         // Load Google Analytics script asynchronously when the component mounts
@@ -32,6 +33,7 @@ function App() {
       <div>
         <NavBar/>
           <Home/>
+          <Blog/>
           <About/>
           <Portfolio/>
           <Experience/>

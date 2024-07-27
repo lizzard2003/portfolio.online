@@ -11,10 +11,10 @@ const Home = () => {
             items-center justify-center h-full px-4 md:flex-row">
                 <div className= "flex flex-col justify-center h-full">
                     <h2 className=" text-4xl sm:text-7xl font-bold text-white">
-                        I'm a Software Engineer
+                        I'm a Ship dock Area Manager at Amazon
                     </h2>
-                    <p className=" text-gray-500 py-4 max-w-md">
-                        As an alumnus of Texas State University, I have recently graduated with a distinguished academic background in Computer Science.
+                    <p className=" text-gray-300 py-4 max-w-md">
+                        As an alumni of Texas State University, I have recently graduated with a distinguished academic background in Computer Science.
                         With a keen focus on collaborative work, I have cultivated a strong skill set as an effective team member, capable of seamlessly integrating within diverse groups.
                         Presently, my enthusiasm lies in the realm of website development, where I harness cutting-edge technologies such as React, Tailwind CSS, MongoDB, and Flask.
                         By leveraging these advanced tools, I strive to create innovative and dynamic web solutions that seamlessly merge functionality with aesthetic appeal.

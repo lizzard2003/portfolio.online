@@ -19,9 +19,9 @@ const Blog = () =>{
                     <strong>Currently on my Learning Path:</strong>
                 </p>
                 <ul className="list-disc pl-6 text-xl mt-4">
-                    <li>EdX: Harvard Tiny Machine Learning (TinyML) Deployment</li>
-                    <li>Linkedin: Artificial Intelligence Foundations: Machine Learning</li>
-                    <li>Google Analytics Certification</li>
+                    <li>Google Cyber security Certification</li>
+                    <li>MSIS at Texas A&M Internation University</li>
+
                 </ul>
 
 

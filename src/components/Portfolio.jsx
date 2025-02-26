@@ -1,15 +1,25 @@
 import React from "react";
+
 import HomePage from'../assets/HomePage.png'
 
 import ReactLayout from'../assets/ReactLayout.png'
 
 import Spotify from '../assets/portfolio/SpotifyCopy.jpg'
 import NasaVerse from '../assets/NasaVerse.png'
+import Earthquake from '../assets/Earthquakedata.png'
+
 
 const Portfolio= () => {
     const portfolios= [
         {
             id:1,
+            src: Earthquake,
+            href:"",
+            link:"https://github.com/lizzard2003/Earthquake1970",
+
+        },
+        {
+            id:2,
             src: HomePage,
             href:"https://bibleapp.fly.dev/login",
             link:"https://github.com/lizzard2003/Bible.git",
@@ -17,14 +27,14 @@ const Portfolio= () => {
 
         },
         {
-            id:2,
+            id:3,
             src: ReactLayout,
             href:"",
             link:"https://github.com/lizzard2003/reactlayout.git",
 
         },
         {
-            id:3,
+            id:4,
             src: Spotify,
             href:"",
             link:"https://github.com/lizzard2003/spotifyClone.git",
@@ -32,9 +42,9 @@ const Portfolio= () => {
 
         },
         {
-            id:4,
+            id:5,
             src: NasaVerse,
-            href:"",
+            href:"https://nasa-verse.fly.dev/",
             link:"https://github.com/lizzard2003/NasaPic.git",
 
 
@@ -48,7 +58,7 @@ const Portfolio= () => {
             <div className= "pb-8">
                 <p className="text-4xl font-bold inline
                  border-b-4 border-gray-800">Portfolio</p>
-                <p className="py-6"> Check out some of my work here</p>
+                <p className="py-6"> Check out some of my work here :</p>
             </div>
 
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm: px-0">

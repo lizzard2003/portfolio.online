@@ -14,10 +14,8 @@ const Home = () => {
                         I'm a Ship dock Area Manager at Amazon
                     </h3>
                     <p className=" text-gray-300 py-4 max-w-md">
-                        As an alumni of Texas State University, I have recently graduated with a distinguished academic background in Computer Science.
-                        With a keen focus on collaborative work, I have cultivated a strong skill set as an effective team member, capable of seamlessly integrating within diverse groups.
-                        Presently, my enthusiasm lies in the realm of website development, where I harness cutting-edge technologies such as React, Tailwind CSS, MongoDB, and Flask.
-                        By leveraging these advanced tools, I strive to create innovative and dynamic web solutions that seamlessly merge functionality with aesthetic appeal.
+                        To further my professional and academic growth, I have enrolled in the Master of Science in Information Science program at Texas A&M International University.
+                        This advanced degree will deepen my passion for technology and continuous learning, providing me with specialized knowledge in data mining, data visualization, and data management.
                     </p>
                     <div>
                         <Link to="portfolio" smooth duration={500}

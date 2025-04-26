@@ -11,7 +11,7 @@ const Home = () => {
             items-center justify-center h-full px-4 md:flex-row">
                 <div className= "flex flex-col justify-center h-full">
                     <h3 className=" text-4xl sm:text-7xl font-bold text-white">
-                        I'm a Ship dock Area Manager at Amazon
+                        I'm an aspiring Software Developer
                     </h3>
                     <p className=" text-gray-300 py-4 max-w-md">
                         To further my professional and academic growth, I have enrolled in the Master of Science in Information Science program at Texas A&M International University.

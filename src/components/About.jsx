@@ -16,10 +16,10 @@ const About = () =>{
                 </p>
             </div>
             <p className="text-xl mt-20">
-                I am a recent graduate of Texas State University with a degree in Computer Science.
-                My current focus is on expanding my knowledge in data analysis. I am actively engaged in an online
-                course offered by Harvard, specifically delving into the realm of Tiny Machine Learning (TinyML), while
-                simultaneously obtaining a data analytics certification from Google.
+                I graduated from Texas State University with a Bachelor's degree in Computer Science.
+                I then started working at Amazon as an Area Manager, where I was taught the leadership principles and how to handle various situations as a leader.
+                I have decided to continue pursuing my passion for technology by enrolling in a Master's program at Texas A&M International University.
+                In my spare time, I have been focusing on completing my Google Cybersecurity certification.
 
             </p>
             <br/>

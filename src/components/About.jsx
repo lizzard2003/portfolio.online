@@ -16,11 +16,9 @@ const About = () =>{
                 </p>
             </div>
             <p className="text-xl mt-20">
-                I graduated from Texas State University with a Bachelor's degree in Computer Science.
-                I then started working at Amazon as an Area Manager, where I was taught the leadership principles and how to handle various situations as a leader.
-                I have decided to continue pursuing my passion for technology by enrolling in a Master's program at Texas A&M International University.
-                In my spare time, I have been focusing on completing my Google Cybersecurity certification.
-
+                Results-driven Data Analyst at Be Well, Texas with a strong foundation in Computer Science and advanced
+                studies in Computer Information Systems (M.S. candidate, Texas A&M International University). Experienced
+                in leveraging AI tools to architect automated data pipelines, streamline data collection processes, and uncover actionable trends that drive data-informed business decisions.
             </p>
             <br/>
             <p className="text-xl">

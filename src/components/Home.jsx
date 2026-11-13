@@ -1,44 +1,105 @@
+
 import React from "react";
-import HeroImage from '../assets/heroImage.png'
-import {FaArrowRight} from 'react-icons/fa'
-import {Link} from 'react-scroll';
+import HeroImage from "../assets/heropic2.png";
+import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-scroll";
+
 const Home = () => {
-    return(
-        <div name="home" className= "h-screen w-full bg-gradient-to-b
-        from-black to-gray-800 via-black ">
+    return (
+        <section
+            id="home"
+            className="flex min-h-screen items-center justify-center bg-gray-950 px-6 py-20 md:px-16"
+        >
+            <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
 
-            <div className= "max-w-screen-lg mx-auto flex flex-col
-            items-center justify-center h-full px-4 md:flex-row">
-                <div className= "flex flex-col justify-center h-full">
-                    <h3 className=" text-4xl sm:text-7xl font-bold text-white">
-                        Data Analyst
-                    </h3>
-                    <p className=" text-gray-300 py-4 max-w-md">
-                        Data Analyst with a background in operations, sales, and retail, bringing a unique combination of analytical, technical,
-                        and business skills. As a Computer Science graduate pursuing a Master’s in Information Science,
-                        I am passionate about leveraging data and technology to improve processes, solve problems, and support informed decision-making.
-                        I take a holistic approach to analysis, translating complex data into actionable insights tailored to diverse audiences. A collaborative team player who values innovation and knowledge sharing,
-                        I also enjoy independent projects that allow me to explore new technologies and expand my technical expertise.
+                {/* Introduction */}
+                <div className="flex flex-col justify-center">
 
+                    <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-teal-400">
+                        Data • Technology • Insights
                     </p>
-                    <div>
-                        <Link to="portfolio" smooth duration={500}
-                              className="group text-white w-fit px-6 py-3 my-2
-                        flex items-center rounded-md bg-gradient-to-r from-violet-500 to-cyan-500 cursor-pointer">
-                            Portfolio
-                            <span className="group-hover: rotate-90 duration-300">
-                            <FaArrowRight size={15} className="ml-1"/>
+
+                    <h1 className="text-5xl font-extrabold leading-tight text-white sm:text-7xl">
+                        Data
+                        <span className="block text-teal-400">
+                            Analyst
+                        </span>
+                    </h1>
+
+                    <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
+                        Data Analyst with a background in operations, sales, and
+                        retail, combining technical expertise with business insight.
+                        As a Computer Science graduate pursuing a Master’s in
+                        Information Science, I use data and technology to solve
+                        problems, optimize processes, and support informed
+                        decision-making. I enjoy transforming complex data into
+                        actionable insights, collaborating with diverse teams,
+                        and exploring new technologies through independent projects.
+                    </p>
+
+                    {/* Skills */}
+                    <div className="mt-8 flex flex-wrap gap-3">
+                        {[
+                            "SQL",
+                            "Python",
+                            "R",
+                            "Power BI",
+                            "Excel",
+                            "Data Visualization",
+                        ].map((skill) => (
+                            <span
+                                key={skill}
+                                className="rounded-full border border-teal-400/30 bg-teal-400/10 px-4 py-2 text-sm font-medium text-teal-300 transition hover:bg-teal-400/20"
+                            >
+                                {skill}
                             </span>
+                        ))}
+                    </div>
+
+                    {/* Buttons */}
+                    <div className="mt-10 flex flex-wrap gap-4">
+
+                        <Link
+                            to="projects"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                            className="flex cursor-pointer items-center gap-2 rounded-lg bg-teal-400 px-6 py-3 font-semibold text-gray-950 transition hover:bg-teal-300"
+                        >
+                            View My Projects
+                            <FaArrowRight />
                         </Link>
+
+                        <a
+                            href="#resume"
+                            className="rounded-lg border border-gray-600 px-6 py-3 font-semibold text-white transition hover:border-teal-400 hover:text-teal-400"
+                        >
+                            View Résumé
+                        </a>
+
                     </div>
                 </div>
-                <div>
-                    <img src={HeroImage} alt="my profile"
-                    className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+
+                {/* Profile Image */}
+                <div className="flex items-center justify-center">
+
+                    <div className="relative flex items-center justify-center">
+
+                        {/* Background glow */}
+                        <div className="absolute h-72 w-72 rounded-full bg-teal-400/20 blur-3xl sm:h-96 sm:w-96" />
+
+                        {/* Profile image */}
+                        <img
+                            src={HeroImage}
+                            alt="Profile portrait"
+                            className="relative z-10 w-64 rounded-full border-4 border-teal-400/30 object-cover shadow-2xl sm:w-80 md:w-96"
+                        />
+
+                    </div>
                 </div>
 
             </div>
-    </div>
+        </section>
     );
 };
 

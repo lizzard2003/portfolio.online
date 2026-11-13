@@ -46,6 +46,8 @@ const Home = () => {
                             "Power BI",
                             "Excel",
                             "Data Visualization",
+                            "Smartsheet",
+                            "Google Sheets"
                         ].map((skill) => (
                             <span
                                 key={skill}

@@ -19,7 +19,7 @@ const Blog = () =>{
                     <strong>Currently on my Learning Path:</strong>
                 </p>
                 <ul className="list-disc pl-6 text-xl mt-4">
-                    <li>Google Cyber security Certification</li>
+
                     <li>MSIS at Texas A&M Internation University</li>
 
                 </ul>

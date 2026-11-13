@@ -11,11 +11,15 @@ const Home = () => {
             items-center justify-center h-full px-4 md:flex-row">
                 <div className= "flex flex-col justify-center h-full">
                     <h3 className=" text-4xl sm:text-7xl font-bold text-white">
-                        I'm an aspiring Software Developer
+                        Data Analyst
                     </h3>
                     <p className=" text-gray-300 py-4 max-w-md">
-                        To further my professional and academic growth, I have enrolled in the Master of Science in Information Science program at Texas A&M International University.
-                        This advanced degree will deepen my passion for technology and continuous learning, providing me with specialized knowledge in data mining, data visualization, and data management.
+                        Data Analyst with a background in operations, sales, and retail, bringing a unique combination of analytical, technical,
+                        and business skills. As a Computer Science graduate pursuing a Master’s in Information Science,
+                        I am passionate about leveraging data and technology to improve processes, solve problems, and support informed decision-making.
+                        I take a holistic approach to analysis, translating complex data into actionable insights tailored to diverse audiences. A collaborative team player who values innovation and knowledge sharing,
+                        I also enjoy independent projects that allow me to explore new technologies and expand my technical expertise.
+
                     </p>
                     <div>
                         <Link to="portfolio" smooth duration={500}
